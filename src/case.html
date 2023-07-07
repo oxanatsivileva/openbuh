@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenBuh</title>
+
+    <link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <header class="header filter">
+        <div class="container">
+            <div class="header__inner">
+                <a href="/" class="header__logo">
+                    <img src="icons/Logo.png" alt="logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__item"><a href="/" class="header__link"> Главная</a></li>
+                        <li class="header__item">
+                            <a href="#services" class="header__link">Услуги<img class="header__link-arrow"src="icons/str.svg" alt=""></a>
+                            <ul class="header__submenu submenu box-shadow">
+                                <li><a href="services-page.html">Консультация</a></li>
+                                <li><a href="">Юридические услуги</a></li>
+                                <li><a href="">Бухгалтерские услуги</a></li>
+                                <li><a href="">Кадровые услуги</a></li>
+                                <li><a href="">Внешнеэкономическая
+                                    деятельность</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__item"><a href="#prices" class="header__link">Цены</a></li>
+                        <li class="header__item"><a href="cases-page.html" class="header__link">Кейсы</a></li>
+                        <li class="header__item">
+                            <a href="#also" class="header__link">Еще<img class="header__link-arrow"src="icons/str.svg" alt=""></a>
+                            <ul class="header__submenu submenu box-shadow">
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Контакты</a></li>
+                                <li><a href="">Пользовательское
+                                    соглашение</a></li>
+                                <li><a href="politica.html">Политика
+                                    конфиденциальности</a></li>
+                                <li><a href="">Отзывы</a></li>
+                            </ul>
+
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <div data-modal="callback" class="header__phone"><img class="header__phone-icon" src="icons/tel.svg" alt="">+7(999)999-99-99</div>
+                    <div class="header__contacts-wrapper">
+                        <button data-modal="callback" class="btn header__btn">Заказать звонок</button>
+                        <div class="header__social">
+                            <a href="https://api.whatsapp.com/send?phone=79177576323" target="_blank" class="header__social-link">                                
+                                <img src="icons/WhatsApp.svg" alt="WhatsApp">
+                            </a>
+                            <a href="https://t.me/+79177576323" target="_blank" class="header__social-link">                                
+                                <img src="icons/Telegram.svg" alt="Telegram">
+                            </a>
+                        </div>
+                        </div>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+    <div class="hamburger box-shadow">
+        <div class="hamburger__wrapper">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>  
+        <div class="hamburger__logo">
+            <img src="icons/Logo.png" alt="">
+        </div>  
+    </div>
+
+
+    <div class="wrapper">
+        <main class="main"> 
+            <section class="case-page section">
+                <div class="container">
+                    <nav aria-label="Breadcrumb" class="breadcrumb">
+                        <ul>
+                            <li class="breadcrumb-link"><a class="title breadcrumb-link" href="cases-page.html">Наши кейсы</a></li>
+                            <img class="breadcrumb-link-arrow" src="icons/breadcrumb-arrow.svg" alt="">
+                            <li><span class="breadcrumb-page" aria-current="page">Магазин фермерской продукции</span></li>
+                        </ul>
+                    </nav>
+                    <div class="case-page__wrapper">
+                        <img class="case-page__img" src="img/case3.jpg">
+                        <div class="case-page__text">
+                            <div class="case-page__text-item">
+                                <h3 class="case-page__text-title">Проблема</h3>
+                                <p class="case-page__text-descr">Компании требовалась оперативное выставление счетов для заказчиков в течении 15 минут, штатный бухгалтер не мог справится с данной задачей.</p>
+                            </div>
+                            <div class="case-page__text-item">
+                                <h3 class="case-page__text-title">Решение</h3>
+                                <p class="case-page__text-descr">Мы смогли выставлять счета за 15 минут для клиентов заказчика и вместе с нами наш заказчик увеличил свои продажи за год на 20%.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="consultation consultation-bcg section" id="consultation">
+                <div class="container">
+                    <h3 class="fz32">Оставьте заявку, чтобы заказать бухгалтерские услуги</h3>
+                    <form class="consultation__form" action="mailer.php" method="post" id="consultation">
+                        <div class="consultation__form-inputs">
+                            <input class="consultation__input" name="name" required placeholder="Имя" type="text">
+                            <input class="consultation__input" name="phone" required placeholder="Tелефон">
+                        </div>
+                        <button class="button">Отправить</button>
+                    </form>
+                </div>
+                <img class="consultation__bcg" src="img/bcg-cons.png" alt="">
+                <img class="consultation__bcg2" src="img/bcg-cons2.png" alt="">
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <img src="icons/Logo.png" alt="">
+                    </div>
+                        <div class="footer__nav">
+                            <div class="footer__col">
+                                <span class="footer__title">Услуги</span>
+                                <ul class="footer__list footer__list-mt">
+                                    <li><a href="">Консультация</a></li>
+                                    <li><a href="">Юр. услуги</a></li>
+                                    <li><a href="">Бух. услуги</a></li>
+                                    <li><a href="">Кадровые услуги</a></li>
+                                    <li><a href="">Внешнеэкономическая
+                                    деятельность</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <ul class="footer__list">
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                    <li><a href="">Цены</a></li>
+                                    <li><a href="">Кейсы</a></li>
+                                    <li><a href="">Польз. согл</a></li>
+                                    <li><a href="">Отзывы</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="footer__contacts">
+                            <div class="footer__call">
+                                <div data-modal="callback" class="footer__phone"><img class="header__phone-icon footer__phone-icon" src="icons/tel.svg" alt="">+7(999)999-99-99</div>
+                                <button data-modal="callback" class="btn footer__btn header__btn">Заказать звонок</button>
+                            </div>
+                            <div class="footer__mail">
+                                <a class="footer__mail-link" href="mailto:openbuh@mail.ru"><img class="footer__mail-img" src="icons/mail.svg" alt=""> openbuh@mail.ru</a>                                
+                                <div class="header__social footer__social">
+                                    <a href="https://api.whatsapp.com/send?phone=79177576323" target="_blank" class="header__social-link">                                
+                                        <img src="icons/WhatsApp.svg" alt="WhatsApp">
+                                    </a>
+                                    <a href="https://t.me/+79177576323" target="_blank" class="header__social-link">                                
+                                        <img src="icons/Telegram.svg" alt="Telegram">
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="footer__address">
+                                г. Москва, ул. Победы, д.6                            
+                            </p>
+                        </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+   <div class="overlay">
+        <div class="modal" id="callback">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">Оставьте заявку,<br>
+                и мы с вами свяжемся!</div>
+            <form class="modal__form" action="mailer.php" method="post">
+                <div class="modal__form-input">
+                    <input class="modal__input" name="name" required placeholder="Имя" type="text">
+                    <input class="modal__input" name="phone" required placeholder="Tелефон">
+                </div>
+                <button class="modal__form-btn btn">Отправить</button>
+                <span class="modal__form-policy">Отправляя заявку вы подтверждаете <a href="politica.html">политику конфиденциальности</a></span>
+            </form>
+            <img class="modal__img" src="img/bcg-modal.png" alt="">
+            <img class="modal__img2" src="img/bcg-modal2.png" alt="">
+
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__descr">Ваша заявка отправлена, мы с вами свяжемся. <br>Спасибо за обращение!</div>
+        </div>
+    </div> 
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mail.js"></script>
+</body>
+</html>

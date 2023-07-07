@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.body {
+    background: #F2F5FF;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex: 0 0 auto;
+}
+* {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $main-color;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $main-color; 
+}
+
+a:hover {
+    color: $main-color; 
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.filter {
+    @include filter;
+}
+
+.box-shadow {
+    @include box-shadow;
+}
+
+.btn {
+    @include btn;
+}
+
+.fz32 {
+    @include fz32;
+}
+
+.button {
+    @include button;
+}
+
+
+.open {
+    display: inline-block;
+}
+ 
+.close {
+    display: none;
+}

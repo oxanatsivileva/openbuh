@@ -1,0 +1,1414 @@
+@media (max-width: 1320px) {
+    .container {
+        max-width: 1140px;
+    }
+    .header {
+        padding: 40px 0 20px;
+        &__inner {
+            align-items: start;
+        }
+        &__contacts {
+            align-items: start;
+            &-wrapper {
+                flex-direction: column;
+                gap: 10px;
+                align-items: end;
+            }
+        }
+    }
+
+    .promo {
+        &__list li {
+            font-size: 35px;
+        }   
+    }
+
+    .services {
+        &__descr-item {
+            padding: 55px 55px 137px;
+        }
+        &__img2 {
+            width: 350px;
+        }
+    }
+
+    .company__bcg {
+        display: none;
+    }
+    .tariff__item-title {
+        font-size: 41px;
+        line-height: 47px;
+        margin-bottom: 21px;
+    }
+    .tariff__item-price {
+        font-size: 29px;
+    }
+    .tariff__item {
+        gap: 30px;
+    }
+    .consultation__form {
+        justify-content: space-between;
+        gap: 0;
+    }
+    .consultation__form-inputs {
+        gap: 25px;
+    }
+    .pr {
+        padding-right: 5%;
+    }
+    .pl {
+        padding-left: 5%;
+    }
+    .services-page__title-text span {
+        font-size: 55px;
+    }
+
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 350px) / repeat(2, 1fr);
+        gap: 35px;
+    }
+    .cases-page__item-content {
+        padding: 30px;
+    }
+    .cases-page__item-name {
+        font-size: 25px;
+    }
+    .cases-page__item-arrow {
+        width: 35px;
+        height: 35px;
+    }
+
+    .modal {
+        width: 50%;
+        padding: 60px 80px;
+    }
+    .modal__img2 {
+        opacity: .5;
+    }
+    
+
+    .footer {
+        &__inner {
+            gap: 50px;
+        }    
+        &__nav {
+            display: flex;
+            gap: 60px;
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        &__menu {
+            gap: 20px;
+        }
+        &__link {
+            font-size: 17px;
+            line-height: 24px;
+        }
+        &__contacts {
+            gap: 15px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__call {
+            gap: 25px;
+        }
+        &__btn {
+            width: 150px;
+            font-size: 12px;
+        }
+            
+    }
+    .promo {
+        &__info {
+            padding: 54px 0;
+            gap: 50px;
+        }
+        &__list li {
+            font-size: 30px;
+        }
+        &__btn {
+            width: 360px;
+            font-size: 27px;
+        }
+        &__img {
+            display: none;
+        }
+        &__bcg img {
+            width: 614px;
+        }
+    }
+    .fz32 {
+        font-size: 28px;
+    }
+    .title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .services {
+        &__list-item {
+            font-size: 28px;
+            line-height: 32px;
+            padding: 30px;
+        }
+        &__img2 {
+            display: none;
+        }
+        &__descr-item {
+            padding: 50px;
+        }
+        &__img {
+            opacity: .5;
+        }
+    }
+    .advantages__items {
+        gap: 40px;
+    }
+    .advantages__item {
+        height: auto;
+        gap: 10px;
+        padding-top: 15px;
+    }
+    .advantages__item-title {
+        font-size: 20px;
+    }
+    .advantages__item-descr {
+        font-size: 18px;
+    }
+    .company {
+        margin-bottom: 100px;
+    }
+    .company__img-bcg {
+        left: -16%;
+    }
+
+    .company__info {
+        padding-right: 0;
+        padding-left: 7%;
+    }
+
+    .company__img-photo {
+        left: 21%;
+    }
+    .tariff__item {
+        padding: 40px;
+    }
+    .tariff__item-title {
+        font-size: 38px;
+    }
+    .tariff__item-price {
+        font-size: 26px;
+    }
+    .tariff__item-descr {
+        font-size: 22px;
+    }
+    .tariff__item {
+        padding: 35px;
+        gap: 25px;
+    }
+    .tariff__item-btn {
+        height: 75px;
+    }
+    .calculator-month__radio {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .calculator__item-input {
+        width: 100%;
+    }
+    .calculator__description {
+        padding: 0 20px;
+    }
+    .button {
+        height: 75px;
+        font-size: 28px;
+    }
+    .calculator__banner {
+        padding: 20px;
+    }
+   .tariff__calculator-wrapper h3 {
+    padding-right: 25%;
+   }
+   .calculator__img {
+        top: -15%;
+    }
+    .calculator__banner-name, 
+    .calculator__banner-price,
+    .calculator__description-text,
+    .calculator__item-title {
+        font-size: 22px;
+    }
+    .form_radio label {
+        font-size: 18px;
+    }
+    .calculator__item-input {
+        font-size: 18px;
+    }
+    .calculator__second-col,
+    .calculator__third-col {
+        gap: 35px;
+    }
+    .calculator__description {
+        gap: 35px;
+    }
+    .tariff__calculator-content {
+        gap: 28px;
+    }
+    .consultation__input {
+        width: 300px;
+        height: 75px;
+    }
+    .consultation__form {
+        margin-top: 40px;
+    }
+    .howwork__content-list li {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .howwork__content-list li::before {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 270px) / repeat(2, 1fr);
+    }
+    .cases-page__item-content {
+        padding: 25px;
+    }
+    .cases-page__item-name {
+        font-size: 22px;
+    }
+    .cases-page__item-arrow {
+        width: 30px;
+        height: 30px;
+    }
+    .cases-page__slider .slick-dots {
+        gap: 30px;
+        bottom: -65px;
+    }
+    .cases-page {
+        margin-bottom: 160px;
+    }
+
+
+    .politica p {
+        font-size: 22px;
+    }
+    .services-page__title-text span {
+        font-size: 50px;
+    }
+
+    .case-page__text-title {
+        font-size: 30px;
+    }
+    .case-page__text-descr {
+        font-size: 22px;
+    }
+    .case-page__text {
+        padding-left: 25px;
+        gap: 20px;
+    }
+
+    .modal {
+        width: 60%;
+    }
+    .modal__form-btn {
+        height: 75px;
+        font-size: 28px;
+    }
+    .modal__input {
+        height: 75px;
+    }
+
+
+    .footer {
+        &__inner {
+            justify-content: space-between;
+        }
+        &__col {
+            width: 190px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__nav {
+            gap: 50px;
+        }
+        &__list-mt {
+            margin-top: 6px;
+        }
+        &__list li a {
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 5px;
+        }
+
+    }
+    .footer__btn {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .hamburger {
+        display: block;
+        &__wrapper {
+            position: absolute;
+            display: block;
+            width: 26px;
+            height: 12px;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            span {
+                display: block;
+                margin-bottom: 4px;
+                height: 2px;
+                width: 100%;
+                transition: 0.5s all;
+                background-color: $blue-color;
+            }
+
+            &_active {
+                span {
+                    margin-bottom: -2px;
+
+                    &:first-child {
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+
+                    &:nth-child(2) {
+                        display: none;
+                    }
+
+                    &:nth-child(3) {
+                        transform: translateY(3px) rotate(45deg);
+                    }
+
+
+                }
+            }
+        }
+        &__logo {
+            width: 75px;
+        }
+    }
+    .advantages__item-header {
+        gap: 15px;
+    }
+    .tariff__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+    .tariff__item {
+        width: 47%;
+    }
+    .header {
+        z-index: 4;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 100px 15px 0 50px;
+        transition: 0.6s all;
+        &_active {
+            left: 0;
+        }
+        &__inner {
+            flex-direction: column;
+            width: 100%;
+            gap: 30px;
+
+        }
+        &__logo {
+            display: none;
+        }
+        &__menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 15px;
+        }
+        &__item {
+            text-align: center;
+            &:hover .header__link:after {
+                width: 0%; 
+            } 
+        }
+
+        &__link {
+            font-size: 24px;
+        }
+        &__btn {
+            display: none;
+        }
+        &__contacts {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 247px;
+
+        }
+
+    }
+    .header__submenu li {
+        border: none;
+    }
+    .submenu {
+        position: static;
+        overflow: hidden;
+        height: 0;
+        transition: .5s ease-in-out;   
+        box-shadow: none; 
+        padding: 0;
+    }
+    .hover {
+        display: block;
+        overflow: visible;
+        height: auto;
+    }
+
+     
+    .section:first-child {
+        margin-top: 110px;
+    }
+    .promo {
+        &__info {
+            padding: 40px 0;
+            gap: 40px;
+        }
+        &__list li {
+            font-size: 24px;
+        }
+        &__btn {
+            width: 300px;
+            height: 70px;
+            font-size: 23px;
+        }
+
+    }
+    .services {
+        &__list {
+            width: 50%;
+            &-item {
+                font-size: 24px;
+            }
+        }
+        &__descr-item {
+            padding: 30px 30px 40px 40px;
+            ul li {
+                margin-bottom: 20px;
+            } 
+        }
+    }
+    .fz32 {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .company__wrapper {
+        flex-direction: column;
+    }
+    .company__img {
+        position: relative;
+        width: 100%;
+        height: 529px;
+    }
+    .company__info {
+        width: 100%;
+        padding-left: 0;
+    }
+    .company__img-bcg {
+        left: 7%;
+        top: -200px;
+    }
+    .company__img-photo {
+        position: absolute;
+        top: -36px;
+        left: 32%;
+    }
+    .tariff__calculator-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tariff__calculator-wrapper h3 {
+        padding-right: 15%;
+    }
+    .tariff__calculator-column {
+        width: 47%;
+    }
+    .calculator__img {
+        top: -10%;
+    }
+    .calculator__description {
+        padding: 0;
+    }
+    .button {
+        font-size: 24px;
+    }
+    .consultation__form-inputs {
+        flex-direction: column;
+    }
+    .consultation__form {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .cases__slider {
+        padding-left: 20px;
+    }
+
+    .cases__slider .slick-track {
+        left: 0; 
+    }
+    .cases__slider .slick-dots {
+        bottom: -60px;
+    }
+    .pr {
+        padding-right: 20px;
+    }
+    .pl {
+        padding-left: 20px;
+    }
+    td, th {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .fz24 th, .fz24 td {
+        font-size: 22px;
+    }
+    .howwork__content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .howwork__content-list {
+        width: auto;
+    }
+    .howwork__staff {
+        gap: 60px;
+    }
+    .cases-page {
+        margin-top: 110px;
+    }
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 250px) / repeat(2, 1fr);
+    }
+    .cases-page__item-content {
+        padding: 21px;
+    }
+    .case-page__wrapper {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .breadcrumb-page {
+        font-size: 26px;
+    }
+    .case-page__text {
+        padding-left: 0;
+    }
+    .case-page__text-title {
+        margin-bottom: 0;
+    }
+    .breadcrumb ul {
+        gap: 15px;
+    }
+    .breadcrumb-link-arrow {
+        width: 10px;
+    }
+    .breadcrumb-link {
+        padding-top: 6px;
+    }
+    .modal {
+        width: 70%;
+    }
+    .modal__form-btn {
+        font-size: 24px;
+    }
+    .footer__inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer__contacts {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .footer__address {
+        order: 3;
+    }
+    .footer__call {
+        order: 2;
+    }
+    .footer__mail {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        padding: 100px 15px 0px 15px;
+    }
+    .promo {
+        &__list {
+            width: 100%;
+        }
+        &__bcg {
+            opacity: .5;
+            img {
+                width: 500px;
+            }
+        }
+        &__btn {
+            width: 270px;
+            font-size: 20px;
+        }
+    }
+    .slick-dots {
+        bottom: -40px;
+    }
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .services {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &__list {
+            width: 100%;
+            &-item {
+                padding: 20px;
+            }
+        }
+        &__descr-item {
+            gap: 20px;
+        }
+    }
+    .advantages__items {
+        grid-template-columns: 1fr;
+    }
+    .advantages__item {
+        padding: 20px;
+        gap: 0px;
+    }
+    .company__img {
+        height: 340px;
+    }
+    .company__img-bcg {
+        width: 100%;
+        top: -42%;
+        left: 12%;
+    }
+    .company__img-photo {
+        width: 45%;
+        top: -44px;
+        left: 33%;
+    }
+    .company__info-descr {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .tariff__items {
+        display: grid;
+        grid-template-columns: 59%;
+    }
+    .tariff__item {
+        width: 100%; 
+    }
+    .calculator__third-col {
+        width: 100%;
+    }
+    .calculator__banner {
+        text-align: center;
+    }
+    .calculator__description {
+        align-items: center;
+    }
+    .tariff__calculator-wrapper h3 {
+        padding-right: 16%;
+    }
+    .calculator__img {
+        top: -14%;
+    }
+    .cases__slider .slick-dots {
+        bottom: -45px;
+    }
+    td, th {
+        font-size: 17px;
+        padding: 15px;
+    }
+    .pr {
+        padding-right: 15px;
+    }
+    .pl {
+        padding-left: 15px;
+    }
+    .fz24 td, .fz24 th {
+        font-size: 19px;
+    }
+    .howwork__content-list li::before {
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+        left: -92px;
+    }
+    .howwork__content-list {
+        margin-left: 90px;
+    }
+    .howwork__content-list li {
+        font-size: 20px;
+    }
+    .howwork__staff-img {
+        width: 100%;
+    }
+
+
+    .politica p {
+        font-size: 20px;
+    }
+    .services-page__title-text {
+        gap: 20px;
+    }
+    .case-page__text-descr {
+        font-size: 22px;
+    }
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 180px) / repeat(2, 1fr);
+        gap: 20px;
+    }
+    .cases-page__item-name {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .cases-page__item-content {
+        padding: 15px;
+    }
+    .cases-page__item-arrow {
+        width: 22px;
+        height: 22px;
+    }
+    .cases-page {
+        margin-bottom: 140px;
+    }
+    .breadcrumb-link {
+        font-size: 20px;
+    }
+    .breadcrumb-page {
+        font-size: 19px;
+    }
+    .breadcrumb ul {
+        gap: 10px;
+    }
+    .breadcrumb {
+        margin-bottom: 40px;
+    }
+    .case-page__text-title {
+        font-size: 24px;
+    }
+    .case-page__text-descr {
+        font-size: 20px;
+    }
+    .reviews {
+        margin-bottom: 80px;
+    }
+    .reviews__slider .slick-slide {
+        margin: 0 10px;
+    }
+    .reviews__slider .slick-dots {
+        bottom: 5px;
+    }
+    .reviews__slider-item {
+        width: 250px;
+        height: 220px;
+        padding: 20px 13px;
+    }
+    .reviews__slider-link {
+        width: 20px;
+        right: 13px;
+    }
+    .reviews__slider .slick-dots {
+        bottom: 34px;
+    }
+
+    .modal {
+        width: 80%;
+        padding: 50px;
+    }
+    .modal__title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .modal__form ,
+    .modal__form-input {
+        gap: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        width: 85%;
+        padding: 100px 15px 0px 50px;
+
+    }
+    .section {
+        margin-bottom: 80px;
+    }
+    .title {
+        text-align: center;
+    }
+    .services__wrapper {
+        border-radius: 0;
+    }
+    .services__list-item {
+        font-size: 20px;
+    }
+    .fz32 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .services__descr-item {
+        padding: 20px 20px 30px 30px;
+    }
+    .company__img {
+        height: 300px;
+        width: 300px;
+        background: RGBA(53,53,162,.7);
+        border-radius: 26px;
+        box-shadow: 5px 7px 15px rgba(189, 208, 251, 0.55);
+    }
+    .company__info-title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .company__img-photo {
+        top: -39px;
+        width: 228px;
+    }
+    .company__img-bcg {
+        display: none;
+    }
+    .company__wrapper {
+        gap: 25px;
+        align-items: center;
+    }
+    .more-icon {
+        width: 20px;
+    }
+    .tariff__items {
+        grid-template-columns: 66%;
+        justify-content: center;
+    }
+    .tariff__item-price {
+        font-size: 24px;
+    }
+    .tariff__calculator-column {
+        width: 100%;
+    }
+    .calculator__banner-name, .calculator__banner-price, .calculator__description-text, .calculator__item-title {
+        font-size: 20px;
+    }
+    .form_radio label {
+        font-size: 16px;
+    }
+    .calculator__item-input {
+        font-size: 16px;
+    }
+    .calculator__item-input {
+        width: 55%;
+    }
+    .tariff__calculator-wrapper h3 {
+        font-size: 22px;
+        padding-right: 0;
+    }
+    .calculator__img {
+        top: 11%;
+    }
+    .calculator__second-col {
+        gap: 25px;
+    }
+    .tariff__calculator-content,
+    .calculator__first-col {
+        gap: 5px;
+    }
+    .calculator-month__radio {
+        gap: 0; 
+    }
+    .button {
+        font-size: 20px;
+    }
+    .tariff__calculator-content {
+        margin-top: 30px;
+    }
+    .cases__slider-item {
+        width: 320px;
+        height: 220px;
+    }
+   .cases__slider {
+        padding-left: 20px;
+    }
+   .cases__slider .slick-slide {
+        margin: 0 15px;
+    }
+    .cases__slider-content {
+        padding: 15px;
+    }
+    .cases__slider-content img {
+        width: 20px;
+        height: 20px;
+    }
+    .cases__name {
+        font-size: 15px;
+    }
+    td, th {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .fz24 td, .fz24 th {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .cases {
+        margin-bottom: 120px;
+    }
+    .services-page__title-text span {
+        font-size: 40px;
+    }
+    .cases-page__item {
+        width: auto;
+        height: auto;
+    }
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 150px) / repeat(2, 1fr);
+    }
+    .cases-page__slider .slick-dots {
+        bottom: -40px;
+    }
+    .cases__name {
+        font-size: 14px;
+    }
+    .cases-page {
+        margin-bottom: 110px;
+    }
+    .breadcrumb-link {
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .breadcrumb-page {
+        font-size: 14px;
+    }
+    .breadcrumb-link-arrow {
+        width: 6px;
+    }
+    .breadcrumb ul {
+        gap: 5px;
+    }
+
+
+
+    .modal {
+        width: 90%;
+        &__title {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    .modal__form-btn {
+        width: 100%;
+    }
+    .modal__form-policy,
+    .modal__form-policy a {
+        font-size: 18px;
+    }
+    .modal_mini {
+        height: 180px;
+        width: 360px;
+    
+    }
+
+}
+
+@media (max-width: 500px) {
+    .company__img-photo {
+        top: -40px;
+        left: 22%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header {
+        padding: 100px 15px 0px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .promo {
+        &__btn {
+            width: 100%;
+        }
+    }
+    .advantages__item {
+        gap: 10px;
+    }
+    .company__img-photo {
+        left: 24%;
+        top: -41px;
+    }
+    .tariff__items {
+        grid-template-columns: 86%;
+    }
+    .calculator__img {
+        display: none;
+    }
+    .button {
+        width: 100%;
+        height: 70px;
+    }
+    .calculator__second-col, .calculator__third-col,
+    .calculator__description {
+        gap: 25px;
+    }
+    .consultation__form-inputs {
+        width: 100%;
+    }
+    .consultation__input {
+        width: 100%;
+        height: 70px;
+    }
+    .consultation__bcg2 {
+        opacity: .5;
+    }
+    .cases__slider {
+        padding-left: 10px;
+    }
+    .cases__slider .slick-slide {
+        margin: 0 10px;
+    }
+    .benefit__table-wrapper {
+        max-width: 533px;
+        overflow-x: scroll;
+    }
+    .benefit__table {
+        width: 533px;
+    
+    }
+    td, th {
+        width: 175px;
+    }
+    .services-page__title-text span {
+        font-size: 30px;
+    }
+    .services-page__title {
+        padding: 20px 0px;
+        margin-bottom: 40px;
+    }
+    .case-page__text-descr {
+        font-size: 20px;
+    }
+    .breadcrumb-link {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .breadcrumb-page {
+        font-size: 11px;
+
+    }
+    .breadcrumb {
+        margin-bottom: 20px;
+    }
+    .case-page__img {
+        width: 100%;
+    }
+    .reviews {
+        margin-bottom: 50px;
+    }
+
+
+    .modal {
+        padding: 35px;
+    }
+    .modal__title {
+        font-size: 22px;
+    }
+
+    .modal__close {
+        top: 20px;
+        right: 20px;
+    }
+    .modal__img2 {
+        display: none;
+    }
+
+    .modal__input,
+    .modal__form-btn {
+        height: 70px;
+    }
+    .modal__form-btn {
+        font-size: 20px;
+    }
+    .modal__form-policy, .modal__form-policy a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .modal_mini {
+        height: 180px;
+        width: 360px;
+        padding: 55px 76px;
+    
+    }
+
+    .footer__inner {
+        gap: 25px;
+    }
+
+    .footer__list li {
+        margin-bottom: 0; 
+    }
+
+    .footer__list li a {
+        font-size: 15px;
+    }
+    .footer__title,
+    .footer__address {
+        font-size: 18px;
+    }
+    .footer__contacts {
+        gap: 10px;
+    }
+    .footer__mail {
+        gap: 10px;
+    }
+
+    
+}
+
+
+@media (max-width: 375px) {
+    .header {
+        padding: 100px 0px 0px;
+    }
+    .promo {
+        &__bcg  {
+            display: none;
+        }
+    }
+    .advantages__item-header {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .advantages__item-title {
+        text-align: left;
+    }
+    .modal_mini {
+        height: 183px;
+        width: 270px;
+        padding: 55px 39px;
+    }
+    .company__img-photo {
+        left: 20%;
+    }
+    .tariff__items {
+        grid-template-columns: 100%;
+    }
+    .tariff__calculator-wrapper {
+        padding: 30px 0 50px;
+    }
+    .cases__slider-item {
+        width: 250px;
+        height: 150px;
+    }
+    .cases__name {
+        line-height: 20px;
+    }
+    .howwork__content-list {
+        margin-left: 70px;
+    }
+    .howwork__content-list li::before {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        left: -70px;
+    }
+    .politica .title {
+        font-size: 20px;
+    }
+    .politica p {
+        font-size: 18px;
+    }
+    .services-page__title-text span {
+        font-size: 25px;
+    }
+
+    .cases-page__item {
+        width: auto;
+        height: auto;
+    }
+    .cases-page__items-wrapper {
+        grid-template: repeat(2, 120px) / repeat(2, 1fr);
+        gap: 10px;
+    }
+    .cases__slider-content img {
+        display: none;
+    }
+    .cases__slider-content {
+        padding: 10px;
+    }
+
+    .modal {
+        padding: 25px 20px;
+    }
+    .modal__close {
+        top: 15px;
+        right: 15px;
+    }
+    .modal__title {
+        font-size: 20px;
+    }
+    .modal__form-policy {
+        text-align: center;
+    }
+    .modal__form, .modal__form-input {
+        gap: 20px;
+    }
+    .modal__title {
+        margin-bottom: 20px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+    }
+    .footer__nav {
+        gap: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .header {
+        width: 95%;
+    }
+    .section:first-child {
+        margin-top: 80px;
+    }
+    .promo {
+        &__list li {
+            font-size: 20px;
+        }
+        &__btn {
+            height: 60px;
+        }
+    }
+    .company__img {
+        width: 100%;
+    }
+    .company__img-photo {
+        top: -41px;
+    }
+    .tariff__item-title {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .tariff__item-price {
+        font-size: 22px;
+    }
+    .tariff__item {
+        padding: 30px;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .tariff__item-descr {
+        font-size: 19px;
+    }
+    .tariff__item-btn {
+        height: 60px;
+    }
+    .consultation__form {
+        margin-top: 30px;
+    }
+    .consultation__input {
+        font-size: 19px;
+    }
+    .cases__slider .slick-slide {
+        margin: 0 5px;
+    }
+    .howwork__content-list {
+        margin-left: 40px;
+    }
+    .howwork__content-list li {
+        min-height: auto;
+        font-size: 18px;
+        margin-bottom: 15px;
+        line-height: 27px;
+    }
+    .howwork__content-list li::before {
+        left: -40px;
+        width: 20px; 
+        height: 20px; 
+        background: transparent;
+        box-shadow: none;
+    }
+    .reviews {
+        margin-bottom: 0;
+    }
+    .reviews__slider-item {
+        width: 220px;
+        height: 200px;
+    }
+    .reviews__slider-date {
+        margin-bottom: 10px;
+    }
+    .reviews__slider-stars {
+        margin-bottom: 10px;
+    }
+    .politica .title {
+        font-size: 19px;
+    }
+    .services-page__title-wrapper {
+        justify-content: center;
+    }
+
+    .services-page__title-wrapper img {
+        display: none;
+    }
+
+
+}
+
+
+
+
